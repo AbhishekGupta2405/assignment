@@ -1,0 +1,97 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f4f7;
+}
+
+.header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  margin-top: 20px; 
+}
+
+.left-panel {
+  width: 50%;
+  overflow-y: auto;
+  height: calc(80vh - 100px); 
+}
+
+.right-panel {
+  width: 45%;
+  position: sticky;
+  top: 80px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  height: calc(80vh - 100px); 
+  overflow-y: auto;
+}
+
+.patient-details {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.test-results {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Test Results Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #e0e0e0;
+}
+
+
+.zoom-box {
+  border: 2px solid #333;
+  padding: 0; 
+  width: 400px; 
+  height: 120px; 
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+
+.test-summary, .recommendations {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
